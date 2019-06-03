@@ -1,0 +1,52 @@
+person:
+  name: Milomir MAric
+  position: Jul Dev
+  phone: +381324534
+  email: demo@demo.com
+  github: demo
+  linkedin: demo
+  website: demo
+  location: demo
+
+skills:
+- om
+- amper
+- wat
+- jul
+
+experiences:
+- company_name: Demo sniper
+  position: Livadica
+  duration:
+    start: 3.2.2017
+    end: present
+  location: Demo
+  description: Mei te dico platonem.
+  highlights:
+  - Ut luptatum quaestio eam, et noster consulatu expetendis mea.
+  - Ut luptatum quaestio eam.
+
+projects:
+- title: Demo sniper
+  description: demo
+  highlights:
+  - demo
+  - demo
+  technologies_used:
+  - wat
+  - jul
+  website: demo.com
+
+languages:
+- name: divljanski
+  level: 1
+- name: divljanski
+  level: 2
+
+educations:
+- name: os es
+  title: bcs
+  duration:
+    start: 2.3.2018
+    end: present
+  location: demo

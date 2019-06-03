@@ -1,0 +1,173 @@
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	/*border: 1px solid red;*/
+}
+
+.container {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	margin-bottom: 10px;
+	/*border: 1px solid black;*/
+	font-size: 13px;
+}
+
+.container h2 {
+	margin-bottom: 5px;
+}
+
+.container h3 {
+	margin: 0px 0px 5px 0px;
+}
+
+.container h4 {
+	margin: 0px 0px 10px 0px;
+}
+
+.container p {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+}
+
+.container::after {
+	content: " ";
+	display: block;
+	/*height: 0; */
+	clear: both;
+}
+
+.left-container {
+	position: relative;
+	/*float: left;*/
+	margin: 0;
+	min-width: 56%;
+	max-width: 56%;
+	margin-right: 20px;
+	/*border: 1px solid black;*/
+}
+
+.right-container {
+	position: relative;
+	/*float: left;*/
+	margin: 0;
+	min-width: 40%;
+	max-width: 40%;
+	/*border: 1px solid black;*/
+}
+
+.project h2 {
+	color: orange;
+}
+
+.custom-ordering ul {
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+.custom-ordering li {
+	padding-bottom: 5px;
+	line-height: 1.5;
+}
+
+.language-icon{
+	float: right;
+	margin-left: 2px;
+}
+
+.language {
+	float: right;
+	margin-right: 5px;
+}
+
+.right {
+	float: right;
+}
+
+.job {
+	font-size: 16px;
+}
+
+.logo {
+	margin-bottom: 0px;
+	font-size: 40px;
+}
+
+.green {
+	color: #22B2B5;
+}
+
+.icon {
+	padding-right: 8px;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #323232;
+}
+
+.header{
+	width: 100%;
+	font-size: 24px;
+	border-bottom: 3px solid lightgray;
+	padding-bottom: 3px;
+	margin: 0px 10px 10px 0px;
+}
+
+.attribute {
+	position: relative;
+	right: 0;
+	float: left;
+	margin: 0px 20px 0px 0px;
+	/*border: 1px solid yellow;*/
+}
+
+.contacts {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.skills {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.skills .attribute {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	/*border-color: #22B2B5;*/
+
+	/*background: #22B2B5;
+	padding: 0px 4px 2px 4px;
+	border-radius: 5px;*/
+}
+
+.underscore {
+	border-bottom: 2px solid lightgray;
+}
+
+.pill {
+	background: #efefef;
+	padding: 0px 6px 2px 4px;
+	border-radius: 5px;
+	border: 1px solid #bcbcbc;
+	/*border: 5px solid red;*/
+	font-style: italic;
+}
+
+.project .pill {
+	font-size: 12px;
+	padding: 0px 4px 1px 2px;
+}
+
+.content-wrapper {
+	display: flex;
+}
+
+
+
+
+/*justify-content*/
